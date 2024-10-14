@@ -8,18 +8,18 @@
     <body>
 	<center>
 	    <h1><b>Welcome to Spring Contact Book</b></h1><br><br>
-		<form action="addContact">
+		<a href="addcontact.jsp">
 			<input type="submit" value="CREATE" size="30"><br><br>
-	    </form>
-		<form action="read">
+	    </a>
+		<a href="displaycontact.jsp">
 			 <input type="submit" value="READ"  size="30"><br><br>
-		</form>
-		<form action="EditContact">
+		<a>
+		<a href="editcontact.jsp">
 			 <input type="submit" value="UPDATE" size="30"><br><br>
-		</form>
-		<form action="deleteContact">
+		</a>
+		<a href="delete.jsp">
 			 <input type="submit" value="DELETE" size="30"><br><br>
-	    </form>
+	    </a>
 			
 	</center>
 	</body>

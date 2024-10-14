@@ -7,12 +7,12 @@
 	</head>
     <body>
 	<center>
-	    <h1><b>Enter Details to Create Contact</b></h1><br><br>
+	    <h1><b>Enter Details to Update Contact</b></h1><br><br>
 		<form action="addContact">
 			 Id:<input type="text" name="id" size="30"><br><br>
 			 Name:<input type="text" name="name" size="30"><br><br>
 			 No:<input type="text" name="no" size="30"><br><br>
-			 <input type="submit" value="SUBMIT" size="20">
+			 <input type="submit" value="UPDATE" size="20">
 		</form>	
 		<a href="option.jsp">
 			<br><input type="submit" value="Back" size="40">
